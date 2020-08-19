@@ -7,20 +7,16 @@ import {
 const FooterSpace = () => {
   return (
     <FooterSpaceContainer>
-      <GithubIcon>
-        <a href="https://github.com/femalves" target="_blank" rel="noreferrer">
-          Github
-        </a>
-      </GithubIcon>
-      <LinkedinIcon>
-        <a
-          href="https://www.linkedin.com/in/ferdemacedo/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Linkedin
-        </a>
-      </LinkedinIcon>
+      <a href="https://github.com/femalves" target="_blank" rel="noreferrer">
+        <GithubIcon />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ferdemacedo/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <LinkedinIcon />
+      </a>
     </FooterSpaceContainer>
   )
 }

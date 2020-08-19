@@ -27,7 +27,7 @@ export const ProjectName = styled.div`
 `
 export const ProjectDescription = styled.div`
   font-size: 0.5em;
-  color: var(--symbol);
+  color: var(--gray);
 `
 export const ProjectLinks = styled.div`
   display: flex;
