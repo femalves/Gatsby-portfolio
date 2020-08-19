@@ -20,7 +20,8 @@ const ContactManagerProjectPage = ({ data }) => {
         <HeaderContainer>
           <ProjectName>Contact Manager</ProjectName>
           <ProjectDescription>
-            Full-stack project built with React, Context and Bootstrap.
+            Full-stack project built with React, Context and Bootstrap. Deployed
+            to Github Pages.
           </ProjectDescription>
           <ProjectLinks>
             <a

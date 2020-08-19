@@ -21,7 +21,7 @@ const DiscordProjectPage = ({ data }) => {
           <ProjectName>Discord Clone</ProjectName>
           <ProjectDescription>
             Front-end project built with React, Typescript and
-            Styled-components.
+            Styled-components. Deployed to Netlify.
           </ProjectDescription>
           <ProjectLinks>
             <a

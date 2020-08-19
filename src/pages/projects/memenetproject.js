@@ -13,15 +13,15 @@ import {
   CodeIcon,
 } from "./_project.styles"
 
-const BlogProjectPage = ({ data }) => {
+const MemenetProjectPage = ({ data }) => {
   return (
     <Layout>
       <ProjectContainer>
         <HeaderContainer>
-          <ProjectName>Blog</ProjectName>
+          <ProjectName>Social Network</ProjectName>
           <ProjectDescription>
-            Full-stack project built with Python, Django and PostgreSQL.
-            Deployed to Heroku.
+            Full-stack social network project to share memes. Built with Python,
+            Django, Redis. Deployed to Heroku.
           </ProjectDescription>
           <ProjectLinks>
             <a
@@ -43,7 +43,7 @@ const BlogProjectPage = ({ data }) => {
         <ImageContainer>
           <StyledImg
             fluid={data.file.childImageSharp.fluid}
-            alt="Blog Project"
+            alt="Memenet Project"
           />
         </ImageContainer>
       </ProjectContainer>
@@ -53,7 +53,7 @@ const BlogProjectPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "BlogProject.png" }) {
+    file(relativePath: { eq: "MemenetProject.png" }) {
       childImageSharp {
         fluid(maxWidth: 1280, maxHeight: 1100) {
           ...GatsbyImageSharpFluid
@@ -63,4 +63,4 @@ export const query = graphql`
   }
 `
 
-export default BlogProjectPage
+export default MemenetProjectPage

@@ -21,7 +21,7 @@ const PortfolioPage = ({ data }) => {
           <ProjectName>Portfolio</ProjectName>
           <ProjectDescription>
             Vanilla front-end portfolio project built entirely with HTML and
-            CSS. Fully responsive.
+            CSS. Fully responsive. Deployed to Github Pages.
           </ProjectDescription>
           <ProjectLinks>
             <a

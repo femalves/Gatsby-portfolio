@@ -20,7 +20,8 @@ const ClientManagerProjectPage = ({ data }) => {
         <HeaderContainer>
           <ProjectName>Client Manager</ProjectName>
           <ProjectDescription>
-            Full-stack project built with React, Redux and Firebase.
+            Full-stack project built with React, Redux and Firebase. Deployed to
+            Firebase.
           </ProjectDescription>
           <ProjectLinks>
             <a

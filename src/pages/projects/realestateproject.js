@@ -21,6 +21,7 @@ const RealEstatePage = ({ data }) => {
           <ProjectName>Real Estate Agency</ProjectName>
           <ProjectDescription>
             Full-stack website built with Django, Bootstrap and PostgreSQL.
+            Deployed to Digital Ocean.
           </ProjectDescription>
           <ProjectLinks>
             <a
