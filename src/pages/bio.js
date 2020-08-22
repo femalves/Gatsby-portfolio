@@ -6,8 +6,8 @@ const BioPage = () => {
     <Layout>
       <BioContainer>
         <h1>
-          <span>Who </span>I am
-          <StyledLink to="/who">
+          Find out more <span>about me</span>
+          <StyledLink to="/bio/aboutme">
             <ArrowIcon />
           </StyledLink>
         </h1>

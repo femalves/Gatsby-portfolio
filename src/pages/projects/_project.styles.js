@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import Img from "gatsby-image"
 import { CodeSlash } from "styled-icons/bootstrap"
 import { Preview } from "styled-icons/material-outlined"
-
+import discordproject from "../../images/DiscordProject.png"
 // import { KeyboardArrowRight } from
 export const ProjectContainer = styled.div`
   display: grid;
@@ -65,14 +64,8 @@ export const CodeIcon = styled(Preview)`
 export const ImageContainer = styled.div`
   grid-area: IC;
   display: flex;
-  height: 100%;
-  width: 100%;
-`
-
-export const StyledImg = styled(Img)`
-  width: 100%;
-  height: 100%;
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
+  background-image: url(${discordproject});
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 85% 85%;
 `

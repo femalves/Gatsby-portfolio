@@ -4,7 +4,6 @@ import Layout from "../../Components/Layout/Layout"
 import {
   ProjectContainer,
   HeaderContainer,
-  StyledImg,
   ImageContainer,
   ProjectName,
   ProjectDescription,
@@ -40,12 +39,7 @@ const ContactManagerProjectPage = ({ data }) => {
             </a>
           </ProjectLinks>
         </HeaderContainer>
-        <ImageContainer>
-          <StyledImg
-            fluid={data.file.childImageSharp.fluid}
-            alt="Contact Manager Project"
-          />
-        </ImageContainer>
+        <ImageContainer></ImageContainer>
       </ProjectContainer>
     </Layout>
   )

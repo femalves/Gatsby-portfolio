@@ -25,4 +25,8 @@ export const ContentContainer = styled.div`
   font-family: "muli", sans-serif;
   font-size: 40px;
   color: var(--secondary);
+  overflow-y: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `

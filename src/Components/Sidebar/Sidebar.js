@@ -12,18 +12,36 @@ const Sidebar = () => {
     <SidebarContainer>
       <ListContainer>
         <p>
-          <StyledLink to="/">
+          <StyledLink to="/" activeClassName="active">
             <ArrowIcon />
           </StyledLink>
         </p>
         <p>
-          <StyledLink to="/bio">WHO</StyledLink>
+          <StyledLink
+            to="/bio"
+            activeStyle={{ color: "var(--quaternary)" }}
+            partiallyActive={true}
+          >
+            WHO
+          </StyledLink>
         </p>
         <p>
-          <StyledLink to="/projects">WORK</StyledLink>
+          <StyledLink
+            to="/projects"
+            activeStyle={{ color: "var(--quaternary)" }}
+            partiallyActive={true}
+          >
+            WORK
+          </StyledLink>
         </p>
         <p>
-          <StyledLink to="/skills">WHAT</StyledLink>
+          <StyledLink
+            to="/skills"
+            activeStyle={{ color: "var(--quaternary)" }}
+            partiallyActive={true}
+          >
+            WHAT
+          </StyledLink>
         </p>
       </ListContainer>
     </SidebarContainer>

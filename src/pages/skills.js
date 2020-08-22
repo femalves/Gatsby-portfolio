@@ -6,8 +6,8 @@ const SkillsPage = () => {
     <Layout>
       <SkillsContainer>
         <h1>
-          <span>What</span> I use{" "}
-          <StyledLink to="/">
+          Take a look at the <span>tech</span> I use
+          <StyledLink to="/skills/tech">
             <ArrowIcon />
           </StyledLink>
         </h1>

@@ -12,7 +12,6 @@ export const SidebarContainer = styled.div`
 export const StyledLink = styled(Link)`
   text-decoration: none;
 
-  color: var(--secondary);
   &:focus,
   &:hover,
   &:visited,
@@ -25,6 +24,12 @@ export const StyledLink = styled(Link)`
   &:hover {
     transition: color 0.2s;
     color: white;
+  }
+
+  color: var(--secondary);
+
+  &.active {
+    color: var(--quaternary);
   }
 `
 export const ArrowIcon = styled(ArrowheadUpOutline)`

@@ -6,7 +6,7 @@ const ProjectsPage = () => {
     <Layout>
       <ProjectsContainer>
         <h1>
-          Know my <span>work</span>
+          Check out my <span>projects</span>
           <StyledLink to="/projects/discordproject">
             <ArrowIcon />
           </StyledLink>
