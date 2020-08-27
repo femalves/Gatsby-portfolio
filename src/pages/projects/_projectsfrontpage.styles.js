@@ -8,7 +8,7 @@ export const ProjectsContainer = styled.div`
   width: 100%;
   flex-direction: column;
   align-items: flex-start;
-  padding: 7% 2%;
+  padding: 7%;
   overflow-y: scroll;
   ::-webkit-scrollbar {
     display: none;
