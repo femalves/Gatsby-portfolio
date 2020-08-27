@@ -31,7 +31,7 @@ export const ColumnContainer = styled.div`
   margin: 3% 2%;
   padding: 3%;
   width: 33%;
-  height: 100%;
+  height: 90%;
   border-radius: 10px;
   font-size: 0.8em;
   box-shadow: 3px 5px 15px 5px #2b3133;

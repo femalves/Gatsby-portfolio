@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import { KeyboardArrowRight } from "styled-icons/material-rounded/"
 export const ProjectsContainer = styled.div`
   font-size: 0.8em;
-  padding-left: 3%;
   span {
     color: var(--quaternary);
   }

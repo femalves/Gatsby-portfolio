@@ -1,22 +1,29 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../Components/Layout/Layout"
+import { Link } from "gatsby"
 import {
   ProjectContainer,
   HeaderContainer,
   ImageContainer,
+  StyledBackgroundImage,
   ProjectName,
   ProjectDescription,
   ProjectLinks,
   DemoIcon,
   CodeIcon,
+  BackIcon,
 } from "./_project.styles"
 
 const PortfolioPage = ({ data }) => {
+  const imageData = data.project.childImageSharp.fluid
   return (
     <Layout>
       <ProjectContainer>
         <HeaderContainer>
+          <Link to="/projects/projectsfrontpage">
+            <BackIcon />
+          </Link>
           <ProjectName>Portfolio</ProjectName>
           <ProjectDescription>
             Vanilla front-end portfolio project built entirely with HTML and
@@ -39,7 +46,9 @@ const PortfolioPage = ({ data }) => {
             </a>
           </ProjectLinks>
         </HeaderContainer>
-        <ImageContainer></ImageContainer>
+        <ImageContainer>
+          <StyledBackgroundImage Tag="section" fluid={imageData} />
+        </ImageContainer>
       </ProjectContainer>
     </Layout>
   )
@@ -47,7 +56,7 @@ const PortfolioPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "OldPortfolioProject.png" }) {
+    project: file(relativePath: { eq: "OldPortfolioProject.png" }) {
       childImageSharp {
         fluid(maxWidth: 1280, maxHeight: 1100) {
           ...GatsbyImageSharpFluid

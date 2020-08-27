@@ -1,7 +1,9 @@
 import styled from "styled-components"
 import { CodeSlash } from "styled-icons/bootstrap"
 import { Preview } from "styled-icons/material-outlined"
-import discordproject from "../../images/DiscordProject.png"
+import { ChevronBackCircle } from "styled-icons/ionicons-sharp"
+import BackgroundImage from "gatsby-background-image"
+
 // import { KeyboardArrowRight } from
 export const ProjectContainer = styled.div`
   display: grid;
@@ -61,11 +63,24 @@ export const CodeIcon = styled(Preview)`
   }
 `
 
+export const BackIcon = styled(ChevronBackCircle)`
+  width: 30px;
+  height: 30px;
+
+  color: var(--symbol);
+  transition: color 0.2s;
+  &:hover {
+    color: var(--white);
+  }
+`
 export const ImageContainer = styled.div`
   grid-area: IC;
   display: flex;
-  background-image: url(${discordproject});
+`
+export const StyledBackgroundImage = styled(BackgroundImage)`
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 85% 85%;
+  width: 98%;
+  height: 98%;
 `

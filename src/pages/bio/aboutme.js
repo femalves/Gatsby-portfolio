@@ -33,8 +33,8 @@ const AboutMePage = () => {
           collaborating with companies that <span>encourage learning</span>.
           <br />
           <br />
-          You can connect with me on the <span>links below</span>. Feel free to
-          send me a message!
+          You can connect with me or download my resume on the{" "}
+          <span>links below</span>. Feel free to send me a message!
           <ContactMeContainer>
             <a href="mailto:fer.de.macedo@gmail.com" target="_top">
               <EmailIcon />
