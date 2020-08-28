@@ -54,7 +54,7 @@ export const ListContainer = styled.div`
   align-items: flex-end;
   @media screen and (max-width: 600px) {
     align-items: flex-start;
-    padding: 3%;
+    padding: 4%;
     font-size: 5vw;
   }
 `
