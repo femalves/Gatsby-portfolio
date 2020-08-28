@@ -31,8 +31,8 @@ const TechPage = () => {
             </ColumnHeader>
             <ColumnContent>
               {" "}
-              {frontend.map(item => (
-                <Skill>
+              {frontend.map((item, index) => (
+                <Skill key={index}>
                   <CheckIcon /> {item}
                 </Skill>
               ))}
@@ -46,8 +46,8 @@ const TechPage = () => {
             </ColumnHeader>
             <ColumnContent>
               {" "}
-              {backend.map(item => (
-                <Skill>
+              {backend.map((item, index) => (
+                <Skill key={index}>
                   <CheckIcon /> {item}
                 </Skill>
               ))}
@@ -60,8 +60,8 @@ const TechPage = () => {
             </ColumnHeader>
             <ColumnContent>
               {" "}
-              {other.map(item => (
-                <Skill>
+              {other.map((item, index) => (
+                <Skill key={index}>
                   <CheckIcon /> {item}
                 </Skill>
               ))}

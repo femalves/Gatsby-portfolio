@@ -14,6 +14,7 @@ const Layout = props => {
       <Helmet>
         <title>{config.title}</title>
         <meta name="description" content={config.description} />
+        <html lang="en" />
       </Helmet>
       <GlobalStyle />
       <Sidebar />
