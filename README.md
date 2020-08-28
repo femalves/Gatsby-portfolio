@@ -56,7 +56,7 @@ $ npm install or yarn add
 # Run Application
 $ npm start ou yarn start
 
-# Go to http://localhost:3000
+# Go to http://localhost:8000
 
 ```
 ## :memo: License
