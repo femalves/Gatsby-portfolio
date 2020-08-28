@@ -35,7 +35,7 @@ export const ParagraphContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 `
 
