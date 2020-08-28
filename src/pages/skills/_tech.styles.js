@@ -46,6 +46,7 @@ export const ColumnContainer = styled.div`
   justify-content: flex-start;
   @media screen and (max-width: 800px) {
     width: 100%;
+    height: 100%;
   }
 `
 
