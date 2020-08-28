@@ -7,6 +7,7 @@ export const SidebarContainer = styled.div`
   display: flex;
   flex-direction: column;
   border-left: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
 `
 
 export const StyledLink = styled(Link)`
@@ -35,14 +36,27 @@ export const StyledLink = styled(Link)`
 export const ArrowIcon = styled(ArrowheadUpOutline)`
   width: 30px;
   height: 30px;
+  padding-right: 7%;
   cursor: pointer;
+  @media screen and (max-width: 800px) {
+    width: 20px;
+    height: 20px;
+    margin-left: -3px;
+  }
 `
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding-right: 7%;
-  font-size: 28px;
+  font-size: 3vw;
   font-family: "benchnine", sans-serif;
   font-weight: bold;
   align-items: flex-end;
+  @media screen and (max-width: 500px) {
+    align-items: flex-start;
+    padding: 3%;
+  }
+  @media screen and (max-width: 700px) {
+    font-size: 4vw;
+  }
 `

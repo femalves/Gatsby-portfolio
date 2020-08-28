@@ -12,6 +12,10 @@ export const SkillsContainer = styled.div`
 export const ArrowIcon = styled(KeyboardArrowRight)`
   width: 100px;
   height: 100px;
+  @media screen and (max-width: 800px) {
+    width: 50px;
+    height: 50px;
+  }
 `
 
 export const StyledLink = styled(Link)`
