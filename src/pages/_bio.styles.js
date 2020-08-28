@@ -14,8 +14,8 @@ export const ArrowIcon = styled(KeyboardArrowRight)`
   height: 100px;
 
   @media screen and (max-width: 800px) {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 `
 

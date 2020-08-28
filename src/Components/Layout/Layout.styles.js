@@ -31,6 +31,6 @@ export const ContentContainer = styled.div`
     display: none;
   }
   @media screen and (max-width: 600px) {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 `
