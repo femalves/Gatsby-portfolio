@@ -52,11 +52,9 @@ export const ListContainer = styled.div`
   font-family: "benchnine", sans-serif;
   font-weight: bold;
   align-items: flex-end;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     align-items: flex-start;
     padding: 3%;
-  }
-  @media screen and (max-width: 700px) {
     font-size: 4vw;
   }
 `
