@@ -17,6 +17,9 @@ export const Header = styled.div`
   font-weight: bold;
   border-left: 6px solid var(--secondary);
   padding-left: 1%;
+  @media screen and (max-width: 600px) {
+    font-size: 1.2em;
+  }
 `
 
 export const SectionsContainer = styled.div`

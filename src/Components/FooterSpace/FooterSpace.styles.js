@@ -26,6 +26,11 @@ export const GithubIcon = styled(GithubWithCircle)`
   &:hover {
     color: var(--white);
   }
+
+  @media screen and (max-width: 600px) {
+    width: 20px;
+    height: 20px;
+  }
 `
 
 export const LinkedinIcon = styled(LinkedinWithCircle)`
@@ -39,5 +44,9 @@ export const LinkedinIcon = styled(LinkedinWithCircle)`
   transition: color 0.2s;
   &:hover {
     color: var(--white);
+  }
+  @media screen and (max-width: 600px) {
+    width: 20px;
+    height: 20px;
   }
 `

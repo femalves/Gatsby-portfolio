@@ -17,6 +17,9 @@ export const Header = styled.div`
   font-weight: bold;
   border-left: 6px solid var(--secondary);
   padding-left: 1%;
+  @media screen and (max-width: 800px) {
+    font-size: 1.2em;
+  }
 `
 
 export const ParagraphContainer = styled.div`
@@ -29,6 +32,10 @@ export const ParagraphContainer = styled.div`
   padding: 2% 10%;
   span {
     color: var(--secondary);
+  }
+
+  @media screen and (max-width: 800px) {
+    font-size: 0.8em;
   }
 `
 

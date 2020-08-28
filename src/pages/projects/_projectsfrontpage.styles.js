@@ -19,6 +19,9 @@ export const Header = styled.div`
   font-weight: bold;
   border-left: 6px solid var(--secondary);
   padding-left: 1%;
+  @media screen and (max-width: 600px) {
+    font-size: 3vw;
+  }
 `
 export const Row = styled.div`
   display: flex;
