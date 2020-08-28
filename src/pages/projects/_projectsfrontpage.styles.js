@@ -38,7 +38,7 @@ export const ImageContainer = styled.div`
   &:hover {
     transition: background-color 0.5s;
     background-color: var(--secondary);
-    border-radius: 50% 5% 50% 50%;
+    border-radius: 50%;
   }
 `
 
