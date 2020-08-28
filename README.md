@@ -1,44 +1,67 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/femalves/Gatsby-portfolio?style=flat-square" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/femalves/Gatsby-portfolio?style=flat-square" />
+  <img alt="" src="https://img.shields.io/github/repo-size/femalves/Gatsby-portfolio?style=flat-square" />
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/femalves/Gatsby-portfolio?style=flat-square" />
+
 </p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+___
+<br>
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+<img width="1280" alt="Screen Shot 2020-08-28 at 11 41 07" src="https://user-images.githubusercontent.com/9547354/91580498-94ee6500-e923-11ea-89c8-1d5668cb0ec1.png">
 
-## 🚀 Quick start
+## :japanese_ogre: Demo Web
 
-1.  **Create a Gatsby site.**
+[Visit demo website](https://codebyfernanda.tech/)
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+## :computer: Tecnologies used
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+- [Javascript](https://www.javascript.com/)
+- [React](https://reactjs.org/)
+- [Gatsby](https://www.gatsbyjs.com/)
 
-1.  **Start developing.**
+### :nail_care: Styling
 
-    Navigate into your new site’s directory and start it up.
+- [Font Awesome](https://fontawesome.com/)
+- [Styled-components](https://styled-components.com/)
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+### :gear: Functionalities
+:white_check_mark: Built with Gatsby
+:white_check_mark: Sitemap
+:white_check_mark: SEO
+:white_check_mark: PWA
+:white_check_mark: Fast
+:heavy_exclamation_mark: Responsive (to-do)
 
-1.  **Open the source code and start editing!**
+### :running: How to run
 
-    Your site is now running at `http://localhost:8000`!
+```bash
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+# Clone this repository
+$ git clone https://github.com/femalves/Gatsby-porfolio
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+# From the terminal, go to folder
+$ cd portfolio-final
+
+# Install dependencies
+$ npm install or yarn add
+
+# Run Application
+$ npm start ou yarn start
+
+# Go to http://localhost:3000
+
+```
+## :memo: License
+
+[OBDS](LICENSE)
+
+
+
+
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
 ## 🧐 What's inside?
 
