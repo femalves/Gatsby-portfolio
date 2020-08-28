@@ -30,4 +30,7 @@ export const ContentContainer = styled.div`
   ::-webkit-scrollbar {
     display: none;
   }
+  @media screen and (max-width: 600px) {
+    font-size: 4vw;
+  }
 `
