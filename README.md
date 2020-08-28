@@ -29,10 +29,15 @@ ___
 
 ### :gear: Functionalities
 :white_check_mark: Built with Gatsby
+
 :white_check_mark: Sitemap
+
 :white_check_mark: SEO
+
 :white_check_mark: PWA
+
 :white_check_mark: Fast
+
 :heavy_exclamation_mark: Responsive (to-do)
 
 ### :running: How to run
