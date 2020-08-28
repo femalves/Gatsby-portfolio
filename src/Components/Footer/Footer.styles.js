@@ -5,7 +5,7 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--symbol);
+  color: var(--white);
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   font-family: "muli", sans-serif;
   font-size: 0.8em;
