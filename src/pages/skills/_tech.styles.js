@@ -26,6 +26,10 @@ export const SectionsContainer = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    font-size: 1.6em;
+  }
 `
 
 export const ColumnContainer = styled.div`
@@ -40,6 +44,9 @@ export const ColumnContainer = styled.div`
   box-shadow: 3px 5px 15px 5px #2b3133;
   font-family: "benchnine", sans-serif;
   justify-content: flex-start;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 `
 
 export const ColumnHeader = styled.div`
