@@ -7,14 +7,15 @@
 
 </p>
 
-___
+---
+
 <br>
 
 <img width="1280" alt="Screen Shot 2020-08-28 at 11 41 07" src="https://user-images.githubusercontent.com/9547354/91580498-94ee6500-e923-11ea-89c8-1d5668cb0ec1.png">
 
 ## :japanese_ogre: Demo Web
 
-[Visit demo website](https://gatsby-portfolio-eight.vercel.app/)
+[Visit demo website](https://codebyfernanda.tech/)
 
 ## :computer: Tecnologies used
 
@@ -28,6 +29,7 @@ ___
 - [Styled-components](https://styled-components.com/)
 
 ### :gear: Functionalities
+
 :white_check_mark: Built with Gatsby
 
 :white_check_mark: Sitemap
@@ -38,7 +40,7 @@ ___
 
 :white_check_mark: Fast
 
-:heavy_exclamation_mark: Responsive (to-do)
+:white_check_mark: Responsive (to-do)
 
 ### :running: How to run
 
@@ -59,12 +61,10 @@ $ npm start ou yarn start
 # Go to http://localhost:8000
 
 ```
+
 ## :memo: License
 
 [OBDS](LICENSE)
-
-
-
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
