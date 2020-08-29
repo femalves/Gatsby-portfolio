@@ -25,7 +25,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-minify`,
-    `gatsby-plugin-layout`,
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
