@@ -46,7 +46,7 @@ const AboutMePage = () => {
             >
               <LinkedinIcon />
             </a>
-            <a href="Resume_final.docx" title="Resume" download>
+            <a href="Resume_final.pdf" title="Resume" download>
               <ResumeIcon />
             </a>
           </ContactMeContainer>
