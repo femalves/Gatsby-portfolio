@@ -31,14 +31,14 @@ const MemenetProjectPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://memesbyfernanda.herokuapp.com"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/memenet"
               target="_blank"
               rel="noreferrer"
             >

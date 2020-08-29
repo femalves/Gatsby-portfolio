@@ -31,17 +31,13 @@ const RealEstatePage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/realestate_django"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
-            <a
-              href="https://github.com/femalves"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="http://www.bthomes.me/" target="_blank" rel="noreferrer">
               <CodeIcon />
             </a>
           </ProjectLinks>

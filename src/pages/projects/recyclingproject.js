@@ -30,14 +30,14 @@ const RecyclingProjectPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/recycle"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
             <a
-              href="https://github.com/femalves"
+              href="https://ecoleta-oficial.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >

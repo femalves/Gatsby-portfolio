@@ -31,14 +31,14 @@ const ClientManagerProjectPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/fb_officemanager"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
             <a
-              href="https://github.com/femalves"
+              href="https://reactofficemanager.firebaseapp.com/login?redirect=%2F"
               target="_blank"
               rel="noreferrer"
             >

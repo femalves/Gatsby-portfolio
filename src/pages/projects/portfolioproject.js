@@ -11,7 +11,6 @@ import {
   ProjectDescription,
   ProjectLinks,
   DemoIcon,
-  CodeIcon,
   BackIcon,
 } from "./_project.styles"
 
@@ -31,18 +30,11 @@ const PortfolioPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/portfolio"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
-            </a>
-            <a
-              href="https://github.com/femalves"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <CodeIcon />
             </a>
           </ProjectLinks>
         </HeaderContainer>

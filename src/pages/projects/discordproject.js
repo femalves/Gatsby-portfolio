@@ -31,14 +31,14 @@ const DiscordProjectPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/discord-clone-frontend"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
             <a
-              href="https://github.com/femalves"
+              href="https://5f2c387b002a820008cc71a2--zealous-heisenberg-ab22ab.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >

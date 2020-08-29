@@ -31,14 +31,14 @@ const BlogProjectPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://blogbyfernanda.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/blog"
               target="_blank"
               rel="noreferrer"
             >

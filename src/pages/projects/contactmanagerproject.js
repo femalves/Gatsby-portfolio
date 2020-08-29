@@ -31,14 +31,14 @@ const ContactManagerProjectPage = ({ data }) => {
           </ProjectDescription>
           <ProjectLinks>
             <a
-              href="https://github.com/femalves"
+              href="https://github.com/femalves/ClientManager"
               target="_blank"
               rel="noreferrer"
             >
               <DemoIcon />
             </a>
             <a
-              href="https://github.com/femalves"
+              href="https://femalves.github.io/ClientManager/#/"
               target="_blank"
               rel="noreferrer"
             >
