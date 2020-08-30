@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../../Components/Layout/Layout"
+import Resume from "./Resume.pdf"
 import {
   AboutMeContainer,
   Header,
@@ -46,7 +47,7 @@ const AboutMePage = () => {
             >
               <LinkedinIcon />
             </a>
-            <a href="Resume_final.docx" title="Resume" download>
+            <a href={Resume} download>
               <ResumeIcon />
             </a>
           </ContactMeContainer>
